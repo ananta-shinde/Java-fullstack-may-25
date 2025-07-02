@@ -1,6 +1,7 @@
 package dataServices;
 
 import java.sql.Connection;
+import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.sql.Statement;
 
@@ -12,6 +13,10 @@ public class StatementService {
 
     public Statement getStatement() throws SQLException {
         return conn.createStatement();
+    }
+
+    public PreparedStatement getStatement(String query) throws SQLException{
+        return conn.prepareStatement(query);
     }
 
 

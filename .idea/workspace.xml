@@ -1,33 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f031ea8a-d271-4135-bc9e-67eaead17699" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-fullstack-april-25.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayDemos/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayDemos/CollectionDemos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayDemos/Demo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayDemos/VectorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JDBCDemos/DemoApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataServices/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataServices/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataServices/StatementService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataServices/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demos/AccessModifierDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demos/AnotherClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demos/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demos/inheritancedemos/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demos/inheritancedemos/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demos/inheritancedemos/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demos/inheritancedemos/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demos/inheritancedemos/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demos/polymorphism/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demos/polymorphism/Teachertask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demos/polymorphism/interfaces/Teacher.java" afterDir="false" />
+    <list default="true" id="f031ea8a-d271-4135-bc9e-67eaead17699" name="Changes" comment="26/06/2025">
+      <change afterPath="$PROJECT_DIR$/src/dataServices/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataServices/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataServices/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataServices/StatementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataServices/StatementService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataServices/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataServices/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,6 +128,14 @@
       <option name="presentableId" value="Default" />
       <updated>1742877840390</updated>
     </task>
+    <task id="LOCAL-00001" summary="26/06/2025">
+      <created>1750918663759</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1750918663759</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -161,5 +148,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="26/06/2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="26/06/2025" />
   </component>
 </project>
