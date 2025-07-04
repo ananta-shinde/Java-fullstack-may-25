@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f031ea8a-d271-4135-bc9e-67eaead17699" name="Changes" comment="26/06/2025">
-      <change afterPath="$PROJECT_DIR$/src/dataServices/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dataServices/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataServices/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataServices/StatementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataServices/StatementService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataServices/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataServices/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dataServices/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataServices/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

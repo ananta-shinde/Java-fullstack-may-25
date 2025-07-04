@@ -13,8 +13,10 @@ public class App {
     public static void main(String[] args) {
         try{
             App app = new App();
-            User user = new User("Demo2","example@example.com","1235456");
-            app.userService.createUser(user);
+            User user = new User("Demo3","example02@example.com","1235456");
+            user.setRole_id(1);
+//            app.userService.createUser(user);
+            app.userService.getUser(1);
         }catch (Exception e){
             System.out.println(e);
         }
