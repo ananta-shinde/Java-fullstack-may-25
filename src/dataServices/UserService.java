@@ -24,24 +24,24 @@ public class UserService {
         st.executeUpdate();
     }
 
-    public void getUser(Object value) throws SQLException{
+    public User getUser(String value) throws SQLException{
         String query_template ;
         PreparedStatement st ;
-        if(!value.getClass().getName().equals("String")){
-            query_template = "select * from users where id = ?";
-            st  = service.getStatement(query_template);
-            st.setInt(1,(Integer)value);
-        }else{
+        User user = null;
+
             query_template = "select * from users where email = ?";
             st  = service.getStatement(query_template);
             st.setString(1,(String)value);
-        }
+
 
         ResultSet result = st.executeQuery();
         while(result.next()){
-            System.out.println( result.getString("email"));
+            user = new User(result.getString("name"),result.getString("email"),result.getString("password"));
+            user.setRole_id(result.getInt("user_roles_id"));
+            user.setIs_active(result.getInt("is_active"));
+            user.setId(result.getInt("id"));
         }
-
+        return user;
     }
 
     public void getUserByEmail(String email) throws SQLException{

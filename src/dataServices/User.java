@@ -11,6 +11,16 @@ public class User {
 
     private int role_id;
 
+    private int  is_active;
+
+    public int getIs_active() {
+        return is_active;
+    }
+
+    public void setIs_active(int is_active) {
+        this.is_active = is_active;
+    }
+
     public int getRole_id() {
         return role_id;
     }
@@ -21,6 +31,11 @@ public class User {
 
     public User(String name, String email, String password) {
         this.name = name;
+        this.email = email;
+        this.password = password;
+    }
+
+    public User(String email, String password) {
         this.email = email;
         this.password = password;
     }
